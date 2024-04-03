@@ -1,4 +1,4 @@
-﻿namespace MockingDependenciesWIthNSubstitute.Application;
+﻿namespace MockingDependenciesWIthNSubstitute.Application.Interfaces;
 
 public interface ILegacySystemProxy
 {

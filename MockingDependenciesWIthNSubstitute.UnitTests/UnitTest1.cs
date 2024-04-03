@@ -1,3 +1,5 @@
+using Xunit;
+
 namespace MockingDependenciesWIthNSubstitute.UnitTests;
 
 public class UnitTest1
