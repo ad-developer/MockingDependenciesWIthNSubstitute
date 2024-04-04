@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OMRZS7kLPp4AM66eZsJcsrKUpeH4Ndw7jCJkw7Cno+ZSXaW+qaCq0o/lIB6XbRCjVmzjauoRTyeiH84rxUGTtw==",
+  "dgSpecHash": "b6sfq6tbH13kjKsBbQeYpLG/QgVkYtPW+cckizm4MmevVdu2H5Uo15BIZ+96lRiCF5iBov0ieDsVFMXPYBkraQ==",
   "success": true,
   "projectFilePath": "/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/MockingDependenciesWIthNSubstitute.UnitTests.csproj",
   "expectedPackageFiles": [
+    "/Users/ad/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/Users/ad/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
     "/Users/ad/.nuget/packages/microsoft.codecoverage/17.8.0/microsoft.codecoverage.17.8.0.nupkg.sha512",
     "/Users/ad/.nuget/packages/microsoft.net.test.sdk/17.8.0/microsoft.net.test.sdk.17.8.0.nupkg.sha512",
@@ -14,6 +15,7 @@
     "/Users/ad/.nuget/packages/microsoft.win32.primitives/4.3.0/microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "/Users/ad/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
     "/Users/ad/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/ad/.nuget/packages/nsubstitute/5.1.0/nsubstitute.5.1.0.nupkg.sha512",
     "/Users/ad/.nuget/packages/nuget.frameworks/6.5.0/nuget.frameworks.6.5.0.nupkg.sha512",
     "/Users/ad/.nuget/packages/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/ad/.nuget/packages/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -38,6 +40,7 @@
     "/Users/ad/.nuget/packages/system.console/4.3.0/system.console.4.3.0.nupkg.sha512",
     "/Users/ad/.nuget/packages/system.diagnostics.debug/4.3.0/system.diagnostics.debug.4.3.0.nupkg.sha512",
     "/Users/ad/.nuget/packages/system.diagnostics.diagnosticsource/4.3.0/system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
+    "/Users/ad/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "/Users/ad/.nuget/packages/system.diagnostics.tools/4.3.0/system.diagnostics.tools.4.3.0.nupkg.sha512",
     "/Users/ad/.nuget/packages/system.diagnostics.tracing/4.3.0/system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "/Users/ad/.nuget/packages/system.globalization/4.3.0/system.globalization.4.3.0.nupkg.sha512",

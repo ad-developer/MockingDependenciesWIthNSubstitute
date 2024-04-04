@@ -97,3 +97,11 @@
 /Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/obj/Debug/net8.0/MockingDependenciesWIthNSubstitute.UnitTests.pdb
 /Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/obj/Debug/net8.0/MockingDependenciesWIthNSubstitute.UnitTests.genruntimeconfig.cache
 /Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/obj/Debug/net8.0/ref/MockingDependenciesWIthNSubstitute.UnitTests.dll
+/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/bin/Debug/net8.0/CoverletSourceRootsMapping_MockingDependenciesWIthNSubstitute.UnitTests
+/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/bin/Debug/net8.0/Castle.Core.dll
+/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/bin/Debug/net8.0/NSubstitute.dll
+/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/bin/Debug/net8.0/System.Diagnostics.EventLog.dll
+/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
+/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
+/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/bin/Debug/net8.0/MockingDependenciesWIthNSubstitute.Application.dll
+/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/bin/Debug/net8.0/MockingDependenciesWIthNSubstitute.Application.pdb

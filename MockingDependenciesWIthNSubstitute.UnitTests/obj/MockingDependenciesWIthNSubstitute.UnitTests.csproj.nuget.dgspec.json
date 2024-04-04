@@ -4,14 +4,14 @@
     "/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/MockingDependenciesWIthNSubstitute.UnitTests.csproj": {}
   },
   "projects": {
-    "/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/MockingDependenciesWIthNSubstitute.UnitTests.csproj": {
+    "/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/MockingDependenciesWIthNSubstitute.UnitTests.csproj",
-        "projectName": "MockingDependenciesWIthNSubstitute.UnitTests",
-        "projectPath": "/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/MockingDependenciesWIthNSubstitute.UnitTests.csproj",
+        "projectUniqueName": "/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.Application.csproj",
+        "projectName": "MockingDependenciesWIthNSubstitute.Application",
+        "projectPath": "/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.Application.csproj",
         "packagesPath": "/Users/ad/.nuget/packages/",
-        "outputPath": "/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/obj/",
+        "outputPath": "/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ad/.nuget/NuGet/NuGet.Config"
@@ -42,6 +42,68 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/MockingDependenciesWIthNSubstitute.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/MockingDependenciesWIthNSubstitute.UnitTests.csproj",
+        "projectName": "MockingDependenciesWIthNSubstitute.UnitTests",
+        "projectPath": "/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/MockingDependenciesWIthNSubstitute.UnitTests.csproj",
+        "packagesPath": "/Users/ad/.nuget/packages/",
+        "outputPath": "/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.UnitTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ad/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.Application.csproj": {
+                "projectPath": "/Users/ad/me/study/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.Application/MockingDependenciesWIthNSubstitute.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -50,6 +112,10 @@
             "coverlet.collector": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "nsubstitute": {
+              "target": "Package",
+              "version": "[5.1.0, )"
             },
             "xunit": {
               "target": "Package",
