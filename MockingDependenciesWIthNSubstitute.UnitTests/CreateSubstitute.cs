@@ -6,7 +6,6 @@ namespace MockingDependenciesWIthNSubstitute.UnitTests;
 
 public class CreateSubstitute
 {
-
    [Fact] 
     public void SubstituteTest(){
         
@@ -27,7 +26,7 @@ public class CreateSubstitute
 
         // Act 
         var ex = Record.Exception(() => {
-            sut.CreateAccount(customer);
+            sut.CreateAccount(customer, AccountType.Individual);
         });
 
         // Accert
@@ -54,7 +53,7 @@ public class CreateSubstitute
 
         // Act 
         var ex = Record.Exception(() => {
-            sut.CreateAccount(customer);
+            sut.CreateAccount(customer, AccountType.Individual);
         });
 
         // Accert
