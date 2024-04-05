@@ -3,7 +3,7 @@ using MockingDependenciesWIthNSubstitute.Application.Interfaces;
 
 namespace MockingDependenciesWIthNSubstitute.Application;
 
-public class AccountService 
+public class AccountService : IAccountService
 {
    private ILegacySystemProxy _legacySystemProxy;
    private ICustomerValidationService _customerValidationService;
@@ -15,13 +15,13 @@ public class AccountService
         _accountValidationService = accountValidationService;
     }
 
-    public Account CreateAccount(Customer customer){
+    public Account CreateAccount(Customer customer, AccountType accountType){
 
        Account account =   new Account();
        var isCustomerValid =  _customerValidationService.ValidateCustomer(customer);
        if(isCustomerValid)
        {
-            account = _legacySystemProxy.CreateAccount(customer);
+            account = _legacySystemProxy.CreateAccount(customer, accountType);
        }
        else 
        {

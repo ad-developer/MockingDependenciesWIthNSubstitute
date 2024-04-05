@@ -2,7 +2,7 @@
 
 public interface ILegacySystemProxy
 {
-    Account CreateAccount(Customer customer);
-
+    AccountProduct DefaultProduct { get; set; }
+    Account CreateAccount(Customer customer, AccountType accountType);
     Account GetAccount(int accountNumber);
 }
