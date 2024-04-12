@@ -1,2 +1,1 @@
-# misc
-Mocking dependencies with NSubstitute
+# Mocking dependencies with NSubstitute
