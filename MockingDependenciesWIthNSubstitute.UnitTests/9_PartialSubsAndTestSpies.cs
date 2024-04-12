@@ -21,9 +21,9 @@ public class PartialSubsAndTestSpies
     public void VoidMethodsAndDoNotCallBase()
     {
          var server = Substitute.ForPartsOf<EmailServer>();
-        server.WhenForAnyArgs(x => x.Send(default, default, default)).DoNotCallBase(); // Make sure Send won't call real implementation
+         server.WhenForAnyArgs(x => x.Send(default, default, default)).DoNotCallBase(); // Make sure Send won't call real implementation
 
-        server.SendMultiple(
+         server.SendMultiple(
             new [] { "alice", "bob", "charlie" },
             "nsubstitute",
             "Partial subs should be used with caution."); // This won't run the real Send now, thanks to DoNotCallBase().
