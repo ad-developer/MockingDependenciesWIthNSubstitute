@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MockingDependenciesWIthNSubstitute.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da0cc9129f67751378b2417416f82d575c25e422")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73069baca245bc5dd6539580f4384187d9c4b2b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("MockingDependenciesWIthNSubstitute.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MockingDependenciesWIthNSubstitute.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
