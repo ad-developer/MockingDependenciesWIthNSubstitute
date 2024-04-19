@@ -10,6 +10,7 @@ public class PartialSubsAndTestSpies
     public void ReplacingASingleMethodTest()
     {
         var reader = Substitute.ForPartsOf<SummingReader>();
+        
         reader.Configure().ReadFile("foo.txt").Returns("1,2,3,4,5"); // CAUTION: real code warning!
 
         var result = reader.Read("foo.txt");
